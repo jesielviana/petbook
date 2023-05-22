@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: purple;
+  height: 60px;
+  color: #fff;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+.logo {
+  border-radius: 50%;
+  background-color: #f4dfd4;
+}
