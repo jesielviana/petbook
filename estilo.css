@@ -1,68 +1,68 @@
+/* css aplicado a todos os elementos da página  */
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /* determina que o box do elemento é até sua borda */
 }
-
+/* css aplicado ao elemento body da página  */
 body {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 0; /* define as margens do body como 0  */
+  display: flex;  /* define o body como um flex container */
+  flex-direction: column;  /* defina a direção dos elementos filhos alinhados verticalmente */
+  align-items: center;  /* define os elementos filhos alinhados ao centro verticalmente */
 }
-
+/* css aplicado ao elemento header da página  */
 header {
-  background-color: purple;
-  height: 60px;
-  color: #fff;
-  padding: 0 16px;
-  display: flex;
-  align-items: center;
-  width: 100%;
+  background-color: purple;  /* define a cor de fundo */
+  height: 60px;  /*  define a altura */
+  color: #fff;  /* define a cor da fonte */
+  padding: 0 16px;  /*  define o distanciamento interno entre o conteúdo e suas bordas */
+  display: flex;  /* define o body como um flex container */
+  align-items: center; /* define os elementos filhos alinhados ao centro horizontalmente */
+  width: 100%; /* define a largura */
 }
-
+/* css aplicado a todos elementos H1  */
 h1 {
-  margin: 0;
-  color: purple;
+  margin: 0; /* define as margens do body como 0  */
+  color: purple; /* define a cor de fundo */
 }
-
+/* css aplicado aos elementos que tem a classe "titulo"  */
 .titulo {
-  color: #fff;
+  color: #fff; /* define a cor da fonte */
 }
-
+/* css aplicado ao elemento main da página  */
 main {
-  display: flex;
-  justify-content: center;
-  padding: 16px;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-  width: 100%;
-  max-width: 700px;
-  margin-bottom: 32px;
+  display: flex; /* define o body como um flex container */
+  justify-content: center; /* define os elementos filhos alinhados ao centro verticalmente */
+  padding: 16px; /*  define o distanciamento interno entre o conteúdo e suas bordas */
+  flex-direction: column; /* defina a direção dos elementos filhos alinhados verticalmente */
+  align-items: center; /* define os elementos filhos alinhados ao centro horizontalmente */
+  gap: 16px; /* define o distanciamento entre os elementos filhos */
+  width: 100%; /* define a largura */
+  max-width: 700px; /* define a largura máxima */
+  margin-bottom: 32px; /* define a margem de baixo */
 }
-
+/* css aplicado aos elementos que tem a classe "logo"  */
 .logo {
-  border-radius: 50%;
-  background-color: #f4dfd4;
+  border-radius: 50%; /* define as bordas arredondadas  */
+  background-color: #f4dfd4; 
   width: 350px;
   border: 5px solid purple;
 }
-
+/* css aplicado aos elementos que tem a classe "descricao"  */
 .descricao {
   width: 100%;
   display: flex;
-  border-top: 2px solid #ccc;
-  justify-content: space-around;
+  border-top: 2px solid #ccc; /* define um borda, os 3 itens são respectivamente: largura, tipo e cor */
+  justify-content: space-around; /* define o alinhamento dos elementos filhos */
 }
-
+/* css aplicado aos elementos div que estão dentro dos elementos de classe "titulo"  */
 .descricao div {
   text-align: center;
 }
-
+/* css aplicado ao elemento footer da página  */
 footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  color: #aaa;
-  border-top: 2px solid #aaa;
+  color: #555;
+  border-top: 1px solid #eee; /* define um borda somente na parte de cima do elemento*/
 }
-
